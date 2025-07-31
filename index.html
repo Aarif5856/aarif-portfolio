@@ -1,23 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aarif's Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
+  <script defer src="script.js"></script>
+  <!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<meta name="description" content="Aarif's Portfolio - Developer | Python | Flutter | Ethical Hacking | Automation | Freelance">
+<meta name="keywords" content="Aarif, developer, portfolio, Python, Flutter, JavaScript, ethical hacking, freelancer">
+<meta name="author" content="Aarif">
+<meta name="robots" content="index, follow">
+
+
 </head>
-<body>
-    <h1>Aarif</h1>
-    <h1>Mohamed</h1>
-    <img width="220" src="aarif.jpg" alt="">
-    <p class="intro">Welcome To My Website</p>
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
-<p class="bio">
-  Passionate Learner | Future Freelancer | Python & Flutter Enthusiast<br>
-  I'm on a mission to master coding, build powerful mobile apps, and earn online with my skills.<br>
-  Currently exploring Python, Ethical Hacking, Flutter, Git, and Freelancing one step at a time.
-</p>
+<body class="light">
+
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <button id="themeButton">🌓</button>
+  </div>
+
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="logo">Aarif Portfolio</h1>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="subheading">Python | Flutter | Ethical Hacking | Future Freelancer</p>
+    </div>
+  </header>
+  
 
 
+  <!-- Hero -->
+  <section class="intro highlight-box">
+    <div class="container center">
+      <img src="aarif.jpg" alt="Aarif Photo" class="profile-pic animate-bounce" />
+      <h2 class="highlight-title">Hi, I'm Aarif 👋</h2>
+      <p class="tagline">I build apps, automate tasks, and help businesses grow online.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about highlight-box" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="bio">
+        I'm a passionate learner aiming to master full-stack development and ethical hacking.
+        I love building smart, beautiful websites and mobile apps. Currently diving deep into
+        Python, Flutter, and freelance strategies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>✔️ Python & Automation</li>
+        <li>✔️ Flutter & Firebase</li>
+        <li>✔️ HTML, CSS, JavaScript</li>
+        <li>✔️ Git & GitHub</li>
+        <li>✔️ Linux & Ethical Hacking Basics</li>
+      </ul>
+    </div>
+  </section>
+  <!-- Project -->
+   <section class="projects" id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-aos="fade-up">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>My Portfolio</h3>
+        <p>Built with HTML, CSS, JavaScript. Features light/dark mode and responsive design.</p>
+      </div>
+      <div class="project-card" data-aos="fade-up">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Task Automator</h3>
+        <p>Python tool to automate boring tasks using scripts and scheduling.</p>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:ariff532.ama@gmail.com">ariff532.ama@gmail.com</a></p>
+      <p>Telegram: <a href="https://t.me/Aarif_5856">@Aarif_5856</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Aarif's Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
+
