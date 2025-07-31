@@ -1,0 +1,15 @@
+h1{
+    color: rgb(60, 60, 236);}
+    .intro {
+  color: gold;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bio {
+  color: #4b4b4b; /* Elegant dark grey */
+  font-style: italic;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
