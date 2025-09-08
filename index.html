@@ -48,17 +48,25 @@
     .nav-menu li a:hover { color: #4facfe; background: rgba(79, 172, 254, 0.1); }
     
     /* Hero Section */
-    .hero { min-height: 100vh; display: flex; align-items: center; }
-    .hero-content { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 100px !important; }
+    .hero-content { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; width: 100% !important; }
+    .hero-text { display: block !important; }
     .hero-text h1 { 
       font-size: clamp(3rem, 6vw, 5rem); font-weight: 800; line-height: 1.1; margin-bottom: 24px; 
+      display: block !important; color: #ffffff !important;
     }
     .gradient-text { 
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+      display: inline-block;
     }
-    .hero-text .subtitle { font-size: 1.5rem; color: #a0a0a0; margin-bottom: 32px; }
-    .hero-text p { font-size: 1.125rem; color: #a0a0a0; margin-bottom: 40px; max-width: 600px; }
+    .hero-text .subtitle { 
+      font-size: 1.5rem; color: #a0a0a0; margin-bottom: 32px; display: block !important; 
+    }
+    .hero-text p { 
+      font-size: 1.125rem; color: #a0a0a0; margin-bottom: 40px; max-width: 600px; 
+      display: block !important;
+    }
     .hero-buttons { display: flex; gap: 20px; flex-wrap: wrap; }
     .btn { 
       display: inline-flex; align-items: center; gap: 12px; padding: 16px 32px;
@@ -137,7 +145,7 @@
     "name": "Aarif",
     "jobTitle": "Full Stack Developer & Cybersecurity Expert",
     "description": "Expert developer specializing in Python automation, Flutter mobile apps, and ethical hacking",
-        "url": "https://aarif-portfolio.vercel.app/",,
+    "url": "https://aarif-portfolio.vercel.app/",
     "sameAs": [
       "https://github.com/Aarif5856",
       "https://linkedin.com/in/aarif-developer"
