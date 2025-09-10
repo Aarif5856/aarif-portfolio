@@ -1,3 +1,7 @@
+/* Ensure hero section is not hidden behind fixed header */
+.intro.highlight-box, .hero, .hero-section {
+  margin-top: 100px;
+}
 /* Enhanced Profile Pic Styles for Hero Section */
 .profile-pic {
   width: 220px;
