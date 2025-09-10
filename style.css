@@ -302,8 +302,8 @@ header.scrolled {
 }
 
 .hero-image img {
-  width: 400px;
-  height: 400px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   position: relative;
@@ -698,9 +698,9 @@ footer {
   
   .hero-buttons {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
   }
-  
+
   .btn {
     width: 100%;
     justify-content: center;
