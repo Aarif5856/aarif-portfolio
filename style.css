@@ -1,6 +1,16 @@
 /* Ensure hero section is not hidden behind fixed header */
+/* More space below header and right alignment for hero section */
 .intro.highlight-box, .hero, .hero-section {
-  margin-top: 100px;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* Ensure hero text is right-aligned */
+.intro.highlight-box .container.center {
+  text-align: right;
+}
 }
 /* Enhanced Profile Pic Styles for Hero Section */
 .profile-pic {
